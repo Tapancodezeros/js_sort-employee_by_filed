@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Department-wise Salary Summary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Employee Table</h2>
+  <table id="employeeTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Salary (₹)</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="form-container">
+    <input type="text" id="nameInput" placeholder="Name" />
+    <select id="deptInput">
+      <option value="HR">HR</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Sales">Sales</option>
+      <option value="Management">Management</option>
+      <option value="Computer Engineer">Computer Engineer</option>
+      <option value="Marketing">Marketing</option>
+    </select>
+    <input type="number" id="salaryInput" placeholder="Salary" />
+    <button onclick="handleAdd()">Add Employee</button>
+  </div>
+
+  <h3>📈 Department-wise Salary Summary</h3>
+  <div id="summary"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
