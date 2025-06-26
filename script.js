@@ -1,12 +1,15 @@
 // Initial list of employee objects with name, department, and salary
 let employees = [
-  {name: "Neha soni", department: "HR", salary: 55000 },
-  {name: "atharv mishra", department: "Engineering", salary: 72000 },
-  {name: "keya patadiya", department: "Marketing", salary: 48000 },
-  {name: "yatri shah", department: "Management", salary: 80000 },
-  {name: "rohan patel", department: "Sales", salary: 60000 },
-  {name: "ram soni", department: "HR", salary: 70000 },
-  {name: "tapan adeshara", department: "Computer Engineer", salary: 72000 },
+  { empId: 101, name: "Neha soni", salary: 55000, department: "HR", joiningDate: "2022-03-01" },
+  { empId: 102, name: "aakansha mishra", salary: 72000, department: "Engineering", joiningDate: "2021-06-05" },
+  { empId: 103, name: "keya patadiya", salary: 48000, department: "Marketing", joiningDate: "2020-07-20" },
+  { empId: 104, name: "yatri shah", salary: 80000, department: "Management", joiningDate: "2019-05-08" },
+  { empId: 105, name: "rohan patel", salary: 60000, department: "Sales", joiningDate: "2017-03-03" },
+  { empId: 106, name: "ram soni", salary: 70000, department: "HR", joiningDate: "2022-12-11" },
+  { empId: 107, name: "tapan adesara", salary: 52000, department: "Computer Engineer", joiningDate: "2023-06-27" },
+  { empId: 108, name: "sandip chadotara", salary: 30000, department: "Computer Engineer", joiningDate: "2024-08-22" },
+  { empId: 109, name: "vidhi patel", salary: 40000, department: "sr.Computer Engineer", joiningDate: "2019-06-13" },
+  { empId: 110, name: "chintan patel", salary: 35000, department: "delevery manager", joiningDate: "2019-11-30" },
 ];
 
 // When the window loads, render the table and the department summary
